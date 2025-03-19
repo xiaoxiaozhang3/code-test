@@ -1,0 +1,210 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="26.1.1">
+  <diagram name="第 1 页" id="7cQ51ghVzwNfd9oLJJjW">
+    <mxGraphModel dx="2213" dy="1952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="U4IFO1iot3zlDFalX8o4-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="U4IFO1iot3zlDFalX8o4-2" target="U4IFO1iot3zlDFalX8o4-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U4IFO1iot3zlDFalX8o4-2" value="流程" style="fontSize=14;zwfType=basicShape;strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#52BD94;fontColor=#FFFFFF;fillColor=#52BD94;" parent="1" vertex="1">
+          <mxGeometry x="192" y="-90" width="136" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="U4IFO1iot3zlDFalX8o4-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="U4IFO1iot3zlDFalX8o4-4" target="U4IFO1iot3zlDFalX8o4-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U4IFO1iot3zlDFalX8o4-4" value="&lt;font&gt;读取条目配置的监控&lt;br&gt;&lt;/font&gt;" style="fontSize=14;zwfType=basicShape;rounded=0;strokeWidth=2;strokeColor=#474D66;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="185" y="170" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U4IFO1iot3zlDFalX8o4-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="U4IFO1iot3zlDFalX8o4-6" target="U4IFO1iot3zlDFalX8o4-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U4IFO1iot3zlDFalX8o4-6" value="获取条目产品的&lt;b&gt;违规状态&lt;/b&gt;和&lt;b&gt;连续天数&lt;/b&gt;是否需要发起流程" style="fontSize=14;zwfType=basicShape;rounded=0;strokeWidth=2;strokeColor=#474D66;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="290" width="160" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="U4IFO1iot3zlDFalX8o4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="U4IFO1iot3zlDFalX8o4-9" target="U4IFO1iot3zlDFalX8o4-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U4IFO1iot3zlDFalX8o4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="U4IFO1iot3zlDFalX8o4-9" target="jWZes6Z3Qeca-MWK_vjQ-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="578" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4IFO1iot3zlDFalX8o4-9" value="满足交易日" style="fontSize=14;spacingLeft=10;spacingRight=10;zwfType=basicShape;strokeWidth=2;rhombus;whiteSpace=wrap;html=1;strokeColor=#474D66;" parent="1" vertex="1">
+          <mxGeometry x="212" y="20" width="96" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="U4IFO1iot3zlDFalX8o4-11" value="是" style="text;zwfType=Text;html=1;lineHeight=1.5;align=left;fontFamily=Inter;strokeColor=none;fillColor=none;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#474D66" parent="1" vertex="1">
+          <mxGeometry x="260" y="116" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U4IFO1iot3zlDFalX8o4-12" value="否" style="text;zwfType=Text;html=1;lineHeight=1.5;align=left;fontFamily=Inter;strokeColor=none;fillColor=none;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#474D66" parent="1" vertex="1">
+          <mxGeometry x="90" y="30" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ti6LTDymlgOIVdU-s_9u-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="U4IFO1iot3zlDFalX8o4-13" target="U4IFO1iot3zlDFalX8o4-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U4IFO1iot3zlDFalX8o4-13" value="&lt;span style=&quot;text-align: center&quot;&gt;TLIMIT_VIOLATION_ENTRY_RECORD&lt;br&gt;update_time &amp;gt;= sysdate-3&lt;br&gt;&lt;/span&gt;" style="text;zwfType=Text;html=1;lineHeight=1.5;align=left;fontFamily=Inter;strokeColor=none;fillColor=none;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#474D66" parent="1" vertex="1">
+          <mxGeometry x="363.13" y="170" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jWZes6Z3Qeca-MWK_vjQ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="U4IFO1iot3zlDFalX8o4-14" target="jWZes6Z3Qeca-MWK_vjQ-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U4IFO1iot3zlDFalX8o4-14" value="根据其提醒分组列获取其分组代码" style="fontSize=14;zwfType=basicShape;rounded=0;strokeWidth=2;strokeColor=#474D66;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="420" width="160" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="ti6LTDymlgOIVdU-s_9u-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="U4IFO1iot3zlDFalX8o4-15" target="U4IFO1iot3zlDFalX8o4-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U4IFO1iot3zlDFalX8o4-15" value="1.产品 2.证券 3.主体 4.条目 5.条目+产品 6.基金经理 7.EVENT_ID 8.个性化指标" style="text;zwfType=Text;html=1;lineHeight=1.5;align=left;fontFamily=Inter;strokeColor=none;fillColor=none;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#474D66" parent="1" vertex="1">
+          <mxGeometry x="380" y="436" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ti6LTDymlgOIVdU-s_9u-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="U4IFO1iot3zlDFalX8o4-16" target="U4IFO1iot3zlDFalX8o4-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U4IFO1iot3zlDFalX8o4-16" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;1、直接返回（&lt;b&gt;产品代码，产品名称&lt;/b&gt;）&lt;br&gt;5、直接返回（&lt;b&gt;产品代码，产品名称&lt;/b&gt;）&lt;br&gt;4、直接返回（&lt;b&gt;条目代码，条目名称&lt;/b&gt;）&lt;br&gt;6、通过&amp;nbsp; &amp;nbsp;条目-产品-基金经理 个性化指标 返回（&lt;b&gt;条目代码，条目名称&lt;/b&gt;）&lt;br&gt;2、通过IDEA明细的&lt;b&gt;DETAIL_RESULTS&lt;/b&gt;列 查找万得代码、S_INFO_WIND_CODE、证券代码、BOND_CODE、I_CODE、股票代码返回 （&lt;b&gt;证券代码，证券名称&lt;/b&gt;）&lt;br&gt;3、通过IDEA明细的&lt;b&gt;DETAIL_RESULTS&lt;/b&gt;列 查找S_INFO_COMPCODE、主体代码、公司代码、BOND_CODE、S_INFO_WINDCODE 返回（&lt;b&gt;主体代码、主体名称&lt;/b&gt;）&lt;br&gt;7、通过IDEA明细的&lt;b&gt;DETAIL_RESULTS&lt;/b&gt;列 查找EVENT_ID,event_id 返回（&lt;b&gt;主体代码、主体名称&lt;/b&gt;）&lt;/font&gt;" style="text;zwfType=Text;html=1;lineHeight=1.5;align=left;fontFamily=Inter;strokeColor=none;fillColor=none;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#474D66" parent="1" vertex="1">
+          <mxGeometry x="840" y="401" width="450" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jWZes6Z3Qeca-MWK_vjQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jWZes6Z3Qeca-MWK_vjQ-3" target="jWZes6Z3Qeca-MWK_vjQ-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="608" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jWZes6Z3Qeca-MWK_vjQ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jWZes6Z3Qeca-MWK_vjQ-3" target="jWZes6Z3Qeca-MWK_vjQ-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jWZes6Z3Qeca-MWK_vjQ-3" value="是否在豁免期内" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#474D66;rounded=0;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="197.5" y="568" width="125" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jWZes6Z3Qeca-MWK_vjQ-6" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="110" y="578" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ti6LTDymlgOIVdU-s_9u-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jWZes6Z3Qeca-MWK_vjQ-8" target="jWZes6Z3Qeca-MWK_vjQ-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jWZes6Z3Qeca-MWK_vjQ-8" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;通过TLIMIT_PROCESS_INSTANCES的&lt;b&gt;EXEMPTION_PERIOD&lt;/b&gt;&amp;nbsp;字段获取&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="363.13" y="593" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jWZes6Z3Qeca-MWK_vjQ-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jWZes6Z3Qeca-MWK_vjQ-11" target="jWZes6Z3Qeca-MWK_vjQ-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jWZes6Z3Qeca-MWK_vjQ-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jWZes6Z3Qeca-MWK_vjQ-11" target="jWZes6Z3Qeca-MWK_vjQ-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jWZes6Z3Qeca-MWK_vjQ-11" value="判断当日是否重复创建流程" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#474D66;rounded=0;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="156.88" y="720" width="206.25" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="jWZes6Z3Qeca-MWK_vjQ-13" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="260" y="670" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ti6LTDymlgOIVdU-s_9u-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jWZes6Z3Qeca-MWK_vjQ-14" target="jWZes6Z3Qeca-MWK_vjQ-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jWZes6Z3Qeca-MWK_vjQ-14" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;通过TLIMIT_PROCESS_INSTANCES 判断相同&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b style=&quot;&quot;&gt;base_date，port_code,group_col&lt;/b&gt; 是否重复创建&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="739" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jWZes6Z3Qeca-MWK_vjQ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jWZes6Z3Qeca-MWK_vjQ-15" target="jWZes6Z3Qeca-MWK_vjQ-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jWZes6Z3Qeca-MWK_vjQ-15" value="保存流程发起记录" style="whiteSpace=wrap;html=1;fontSize=14;strokeColor=#474D66;rounded=0;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-110.01" y="734.5" width="120" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="jWZes6Z3Qeca-MWK_vjQ-17" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="80" y="729" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jWZes6Z3Qeca-MWK_vjQ-19" value="结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-110.01" y="568" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ti6LTDymlgOIVdU-s_9u-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jWZes6Z3Qeca-MWK_vjQ-23" target="jWZes6Z3Qeca-MWK_vjQ-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jWZes6Z3Qeca-MWK_vjQ-23" value="&lt;pre&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot; face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 16px;&quot;&gt;TLIMIT_PROCESS_DATA_RECORD&lt;/font&gt;&lt;span style=&quot;color: light-dark(rgba(0, 0, 0, 0), rgb(237, 237, 237)); background-color: light-dark(rgb(43, 43, 43), rgb(200, 200, 200)); font-size: 9.8pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-430" y="729" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jWZes6Z3Qeca-MWK_vjQ-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jWZes6Z3Qeca-MWK_vjQ-26" target="jWZes6Z3Qeca-MWK_vjQ-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ti6LTDymlgOIVdU-s_9u-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jWZes6Z3Qeca-MWK_vjQ-26" target="ti6LTDymlgOIVdU-s_9u-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jWZes6Z3Qeca-MWK_vjQ-26" value="是否并行" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#474D66;rounded=0;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="156.87" y="840" width="206.25" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="gyV3h87PzLNENqKgbcVX-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jWZes6Z3Qeca-MWK_vjQ-28" target="jWZes6Z3Qeca-MWK_vjQ-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-210" y="880" />
+              <mxPoint x="-210" y="608" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jWZes6Z3Qeca-MWK_vjQ-28" value="存在历史未完成流程，不会创建，发送流程提醒" style="whiteSpace=wrap;html=1;fontSize=14;strokeColor=#474D66;rounded=0;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-150" y="844.5" width="130" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="jWZes6Z3Qeca-MWK_vjQ-30" value="否并且存在流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="15" y="849" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ti6LTDymlgOIVdU-s_9u-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ti6LTDymlgOIVdU-s_9u-11" target="ti6LTDymlgOIVdU-s_9u-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ti6LTDymlgOIVdU-s_9u-11" value="调用activity接口创建流程" style="whiteSpace=wrap;html=1;fontSize=14;strokeColor=#474D66;rounded=0;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="199.995" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pG7ACdKaWuw7on9Y2XZk-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ti6LTDymlgOIVdU-s_9u-13" target="ti6LTDymlgOIVdU-s_9u-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gyV3h87PzLNENqKgbcVX-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ti6LTDymlgOIVdU-s_9u-13" target="gyV3h87PzLNENqKgbcVX-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ti6LTDymlgOIVdU-s_9u-13" value="设置下个节点处理人，通过add_candidate_user" style="whiteSpace=wrap;html=1;fontSize=14;strokeColor=#6c8ebf;rounded=0;strokeWidth=2;shadow=1;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="190.01" y="1109" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ti6LTDymlgOIVdU-s_9u-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;1.存在场景是否配置角色，场景类型2(指定角色处理) 则取场景角色，不存在则取节点名 “_” 结尾前的&lt;/font&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;FNDM 基金经理角色&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 17px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;lt;1&amp;gt;3&amp;nbsp; 先通过&lt;/span&gt;&lt;b style=&quot;font-size: 17px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;IDEA明细&lt;/b&gt;&lt;span style=&quot;font-size: 17px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;获取&lt;/span&gt;&lt;b style=&quot;font-size: 17px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;证券代码&lt;/b&gt;&lt;span style=&quot;font-size: 17px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;，不存在则&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 17px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;通过主体获取其证券代码为code&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;7 取分组代码的第1项 为code 分组代码.split（“：”）[0]&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;2 直接传入分组代码为code&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;通过code 获取其组合代码，再通过&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;通过 &lt;b&gt;IDEA接口&amp;nbsp; &amp;nbsp;Port_Same_Sec_Holdings &lt;/b&gt;函数 获取到产品代码&lt;/span&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;通过产品代码获取到基金经理，获取不到基金经理则取风控角色&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 17px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;lt;2&amp;gt;6 直接传入分组代码&lt;/span&gt;&lt;br&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;其他提醒类型 分组代码为产品 &lt;b style=&quot;&quot;&gt;IGW_PRD_FUND_MANAGER&lt;/b&gt;和&lt;b style=&quot;&quot;&gt;IGW_TJSCC_O32_REP_PRI&lt;/b&gt;查找基金经理&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;FNDA 基金助理角色&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;通过产品和日期查询 &lt;b style=&quot;&quot;&gt;igw_warn_instruction &lt;/b&gt;表获取&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;SUPL 上级领导&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;1&amp;gt;判断当前流程是否走过FNDM角色&amp;nbsp; 走过则通过表&lt;b&gt;HRMRESOURCE &lt;/b&gt;获取到FNDM的领导&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;2&amp;gt;没走过 则&amp;nbsp; &amp;nbsp;2，3，7 获取到基金经理（同上基金经理获取方式）&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 获取到基金经理后 通过&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 18px;&quot;&gt;表&lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 18px;&quot;&gt;HRMRESOURCE&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 18px;&quot;&gt;获取到FNDM的领导&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;MANAGELEADER分管副总&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/b&gt;先获取到基金经理角色（同上基金经理获取方式） 再通过&lt;/span&gt;&lt;span style=&quot;font-size: 18px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;IGW_PRD_FUND_MANAGER_LEADER &lt;/b&gt;获取&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;BNDRES债券研究员&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;lt;1&amp;gt; 通过证券代码或主体代码&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 18px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SELECT DISTINCT S_INFO_COMP_NAME FROM B_SECUMAIN WHERE&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;S_INFO_WINDCODE = &#39;{portCode}&#39; OR S_INFO_COMP_CODE = &#39;{portCode}&#39; 获取到主体名称&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;lt;2&amp;gt; 通过主体名称查询研究员&amp;nbsp; SELECT &quot;研究员1&quot; FROM igw_issuer_allocation_rule&amp;nbsp;&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;STKRES 股票研究&lt;/b&gt;&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;b style=&quot;font-size: 18px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/b&gt;&lt;span style=&quot;font-size: 18px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;通过&lt;/span&gt;&lt;b style=&quot;font-size: 18px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;font-size: 18px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SELECT RESEARCHID FROM XRISK.&lt;/span&gt;&lt;b style=&quot;font-size: 18px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RESEARCH_STOCK_RELATION &lt;/b&gt;&lt;span style=&quot;font-size: 18px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;A&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp; LEFT JOIN &lt;b&gt;IGW_ICODE_MAPPING &lt;/b&gt;B ON A.STOCKCODE = B.S_INFO_WINDCODE AND B.FLAG = &#39;1&#39;&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp; where begindate &amp;lt;= to_char(sysdate,&#39;yyyy-mm-dd&#39;) and enddate &amp;gt; to_char(sysdate,&#39;yyyy-mm-dd&#39;)&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; and (STOCKCODE= &#39;{code}&#39; OR S_INFO_COMPCODE = &#39;{code}&#39;) AND A_TYPE=&#39;SPT_S&#39; 获取研究员&lt;/span&gt;&lt;/blockquote&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;不存在则获取&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 18px;&quot;&gt;&lt;b&gt;INVEST_SUPPORT&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 18px;&quot;&gt;投资助理&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;CONBOND 转债研究员&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;lt;1&amp;gt; 提醒分组列为 2、7时 先获取到主体代码&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; select S_INFO_COMP_CODE from &lt;b&gt;B_SECUMAIN &lt;/b&gt;where s_info_windcode = &#39;{0}&#39;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;lt;2&amp;gt;通过主体代码获取研究员&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt; &lt;/font&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;SELECT LOGINID FROM &lt;b&gt;IGW_CONVERBOND_RELATION &lt;/b&gt;WHERE S_INFO_COMPCODE= &#39;{code}&#39;&lt;/font&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;3&amp;gt;不存在&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 18px;&quot;&gt;则获取&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 18px;&quot;&gt;&lt;b&gt;INVEST_SUPPORT&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 18px;&quot;&gt;投资助理&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;其他角色&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 18px;&quot;&gt;从表&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 18px;&quot;&gt;&lt;b&gt;TLIMIT_GROUP_MEMBERS&lt;/b&gt;获取&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/blockquote&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="410" y="830" width="960" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="ti6LTDymlgOIVdU-s_9u-21" value="&lt;span style=&quot;color: rgb(71, 77, 102); font-family: Inter; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;1.产品 2.证券 3.主体 4.条目 5.条目+产品 6.基金经理 7.EVENT_ID 8.个性化指标&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="800" width="520" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gyV3h87PzLNENqKgbcVX-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gyV3h87PzLNENqKgbcVX-1" target="gyV3h87PzLNENqKgbcVX-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gyV3h87PzLNENqKgbcVX-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gyV3h87PzLNENqKgbcVX-1" target="gyV3h87PzLNENqKgbcVX-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gyV3h87PzLNENqKgbcVX-1" value="保存流程实例信息" style="whiteSpace=wrap;html=1;fontSize=14;strokeColor=#474D66;rounded=0;strokeWidth=2;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="199.995" y="1250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gyV3h87PzLNENqKgbcVX-6" value="&lt;pre&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot; face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 16px;&quot;&gt;&lt;b&gt;TLIMIT_PROCESS_INSTANCES &lt;/b&gt;流程实例表&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-178.12" y="1250" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gyV3h87PzLNENqKgbcVX-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gyV3h87PzLNENqKgbcVX-8" target="gyV3h87PzLNENqKgbcVX-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rHmuyQQ7ReQpOLH_-8-J-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gyV3h87PzLNENqKgbcVX-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="119.99499999999989" y="1420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gyV3h87PzLNENqKgbcVX-8" value="保存流程相关有效的条目/产品" style="whiteSpace=wrap;html=1;fontSize=14;strokeColor=#474D66;rounded=0;strokeWidth=2;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="199.995" y="1390" width="119" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gyV3h87PzLNENqKgbcVX-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gyV3h87PzLNENqKgbcVX-10" target="gyV3h87PzLNENqKgbcVX-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gyV3h87PzLNENqKgbcVX-10" value="生成代办任务" style="whiteSpace=wrap;html=1;fontSize=14;strokeColor=#474D66;rounded=0;strokeWidth=2;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="199.495" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gyV3h87PzLNENqKgbcVX-12" value="判断当前节点是否符合场景（9，有条件的自动提交）有则自动提交" style="whiteSpace=wrap;html=1;fontSize=14;strokeColor=#474D66;rounded=0;strokeWidth=2;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="194.74" y="1640" width="130.51" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rHmuyQQ7ReQpOLH_-8-J-3" value="&lt;pre style=&quot;background-color: rgb(43, 43, 43); font-size: 9.8pt; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; color: rgb(169, 183, 198);&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1403" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rHmuyQQ7ReQpOLH_-8-J-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;TLIMIT_PROCESS_DATA_RECORD&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="1403" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rHmuyQQ7ReQpOLH_-8-J-6" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;场景代码&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;1 下个节点候选人&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;2 配置处理的角色&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;3 配置可选代办项&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;4 新建的流程ID（需要添加场景配置可以使用:拼接场景在后面）&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;5 节点是否可以编辑（1可以编辑，0不能编辑）&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;6 是否要过滤其他人提交的记录（1需要过滤，0不需要过滤）&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;7 配置节点自动非自动&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;8 节点需要转办的角色（若item_code不存在则为所有人&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;，若item_name=当前task_code则为当前节点，若item_name!=task_code则为后续节点）&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;9 有条件的自动提交节点&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;10 N天未处理则自动提交&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;11 选择下个节点处理人&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;12 当前节点处理完，调用其他系统接口&amp;nbsp; &amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;13 股票、债券有持仓则自动提交&amp;nbsp; &amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;14 流程自动提交节点抄送邮件&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;15 当前节点提交完抄送上个节点的角色&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="-390" width="730" height="380" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
