@@ -42,17 +42,17 @@ langChain 0.3
 
 
 ## RAG 范式
-一.高级RAG:
+1.高级RAG:
   检索前优化： 改写查询、路由
   检索中优化: 混合检索（用户查询->关键词、向量检索->RRF、加权和、学习排序->重新排序Cross-encoder/mmr多样性排序）、重排序rerank
   检索后优化: 上下文压缩、摘要
-二.模块化RAG
+2.模块化RAG
   自适应adaptiveRAG
   迭代检索RAG
   递归检索RAG
   多跳RAG
   self-RAG
-三.前沿  agenticRAG
+3.前沿  agenticRAG
   规划-执行-验证循环
   工具调用
   多智能体协作
