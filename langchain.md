@@ -231,3 +231,4 @@ graph TD
 
 ## 重排序rerank
 通过 query和doc 进行token级别交互 精准捕捉否定词因果关系等。缺点是延时高、必须实时推理
+
